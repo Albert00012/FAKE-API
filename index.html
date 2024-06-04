@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Mexico</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flex.css">
+    <script src="./js/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+            <img class="logo-ecabezado" src="./img/mex.jpg" alt="">
+            <h1 class="titulo-encabezado">Autos Mexico</h1>
+        </div>
+        <div class="btn-encabezado">
+            <button class="btn-agregar" onclick="mostrar()">Agregar Auto</button>
+        </div>
+    </header>
+    
+        <section class="section-agregar-autos">
+
+
+            <form class="form-text" data-formulario>
+                <div class="form-text-content">
+                    <div class="info-agregar">
+                        <label for="text" class="label">Marca y Modelo</label>
+                        <input class="formInfo-agregar" type="text" required="Obligatorio" data-titulo>
+                    </div>
+
+                    <div class="info-agregar">
+                        <label for="text" class="label">Año</label>
+                        <input class="formInfo-agregar" type="number" required="Obligatorio" data-year>
+                    </div>
+
+                    <div class="info-agregar">
+                        <label for="text" class="label">Kilometraje</label>
+                        <input class="formInfo-agregar" type="number" required="Obligatorio" data-kms>
+                    </div>
+
+                    <div class="info-agregar">
+                        <label for="text" class="label">Ciudad</label>
+                        <input class="formInfo-agregar" type="text" required="Obligatorio" data-ciudad>
+                    </div>
+
+                    <div class="info-agregar">
+                        <label for="text" class="label">Precio</label>
+                        <input class="formInfo-agregar" type="number" required="Obligatorio" data-precio>
+                    </div>
+
+                    <div class="info-agregar">
+                        <label for="text" class="label">Imagen(URL)</label>
+                        <input class="formInfo-agregar" type="url" required="Obligatorio" data-imagen>
+                    </div>
+
+                    <div class="info-agregar">
+                        <button id="agregarAutoNuevo" type="submit">Agregar</button>
+                    </div>
+
+                    <!-- <div class="info-agregar">
+                        <button id="limpiar" type="submit">Limpiar</button>
+                    </div> -->
+                </div>
+            </form>
+        </section>
+
+        <section class="section-autos" >
+            <div class="contenedor-auto" data-lista>
+
+            </div>
+        </section>
+    
+    <footer>
+        <h2>Autos Mexico || AluraGeek</h2>
+        <h3>Desarrollado por Alberto</h3>
+        <h4>Todos los derechos reservados Autos Mexico 2024</h4>
+    </footer>
+    <script src="./js/mostrarAutos.js" type="module"></script>
+    <script src="./js/crearAuto.js" type="module"></script>
+</body>
+
+</html>

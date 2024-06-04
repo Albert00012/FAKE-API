@@ -1,0 +1,85 @@
+{
+  "autos": [
+    {
+      "id": "1",
+      "titulo": "Mercedes Benz GLC",
+      "year": "2024",
+      "kms": "4500 kms",
+      "ciudad": "Jalisco",
+      "precio": "$ 960,000",
+      "imagen": "https://i.pinimg.com/originals/c7/21/88/c721881e87be132cdedddbbb1449d8fe.png"
+    },
+    {
+      "id": "2",
+      "titulo": "Honda CRV Touring",
+      "year": "2018",
+      "kms": "74000",
+      "ciudad": "Nayarit",
+      "precio": "340000",
+      "imagen": "https://hips.hearstapps.com/hmg-prod/images/2017-honda-cr-v-110-1534185223.jpg?crop=0.871xw:0.801xh;0,0.199xh&resize=2048:*"
+    },
+    {
+      "id": "52be",
+      "titulo": "Toyota Camry",
+      "year": "2018",
+      "kms": "64500",
+      "ciudad": "Jalisco",
+      "precio": "280000",
+      "imagen": "https://img.sm360.ca/ir/w940/images/inventory/hawkesburytoyota/toyota/camry/2020/31774198/31774198_00588_8b7f287c-b2e2-4b38-8792-536c9897b635.jpg"
+    },
+    {
+      "id": "90f4",
+      "titulo": "Honda Civic",
+      "year": "2007",
+      "kms": "120.000",
+      "ciudad": "Monterrey",
+      "precio": "83.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_754428-MLM74908954145_032024-O.webp"
+    },
+    {
+      "id": "fa07",
+      "titulo": "Ram-1500",
+      "year": "2020",
+      "kms": "73.000",
+      "ciudad": "Sinaloa",
+      "precio": "936.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_856247-MLM74063717711_012024-O.webp"
+    },
+    {
+      "id": "7b49",
+      "titulo": "Honda Odyssey",
+      "year": "2002",
+      "kms": "220.000",
+      "ciudad": "CDMX",
+      "precio": "69.000",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnyDJS6ZDo8ay4LmZwak84m2e8RfCDkKF60g&usqp=CAU"
+    },
+    {
+      "id": "2c33",
+      "titulo": "Ford Mustang",
+      "year": "1969",
+      "kms": "225.000",
+      "ciudad": "Jalisco",
+      "precio": "360.000",
+      "imagen": "https://img.remediosdigitales.com/ac2a65/1969_ford_mustang_boss_429-01/450_1000.jpg"
+    },
+    {
+      "id": "8bf4",
+      "titulo": "Volkwagen Bocho",
+      "year": "1969",
+      "kms": "240.000",
+      "ciudad": "Cdmx",
+      "precio": "65.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_990266-MLM74411870895_022024-O.webp"
+    },
+    {
+      "id": "73b8",
+      "titulo": "Acura MDX",
+      "year": "2023",
+      "kms": "14.000",
+      "ciudad": "Tijuana",
+      "precio": "1.000000",
+      "imagen": "https://car-images.bauersecure.com/wp-images/173527/480x270/acuramdx_01.jpg"
+    }
+  ]
+}
